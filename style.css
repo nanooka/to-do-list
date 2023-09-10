@@ -61,6 +61,10 @@ input[type="checkbox"] {
   height: 18px;
   cursor: pointer;
 }
+label {
+  white-space: normal;
+  overflow-wrap: break-word;
+}
 label::before {
   content: "";
   width: 14px;
